@@ -3,6 +3,7 @@ body{
     margin:0;
     text-align: center;
     font-family: 'Merriweather', serif;
+    color: #40514E
 }
 
 .top-container{
@@ -10,6 +11,15 @@ body{
     position: relative;
     padding-top: 150px;
     padding-bottom: 80px;
+}
+
+.middle-container{
+    margin: 100px 0;
+}
+
+.bottom-container{
+    background-color: #F9CEEE;
+    padding: 50px 0 20px;
 }
 h1{
     margin: 50px auto 0 auto;
@@ -20,12 +30,41 @@ h1{
 h2{
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
 }
 h3{
     font-family: 'Montserrat', sans-serif;
 }
+a{
+    color: white;
+    margin: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+a:hover{
+    color: #e038b6;
+}
 .pro{
     text-decoration: underline;
+}
+.intro{
+    width: 30%;
+    margin: auto;
+}
+p{
+    line-height: 2;
+}
+.contact-message{
+    width: 40%;
+    margin: 40px auto;
+}
+hr{
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width:4%;
+    margin: 100px auto;
+
 }
 
 .bottom-cloud{
@@ -39,3 +78,35 @@ h3{
     right: 300px;
     top: 50px;
 }
+
+.btn {
+    background: #faa5d2;
+    background-image: -webkit-linear-gradient(top, #faa5d2, #d954b1);
+    background-image: -moz-linear-gradient(top, #faa5d2, #d954b1);
+    background-image: -ms-linear-gradient(top, #faa5d2, #d954b1);
+    background-image: -o-linear-gradient(top, #faa5d2, #d954b1);
+    background-image: linear-gradient(to bottom, #faa5d2, #d954b1);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #ff009d;
+    background-image: -webkit-linear-gradient(top, #ff009d, #a80070);
+    background-image: -moz-linear-gradient(top, #ff009d, #a80070);
+    background-image: -ms-linear-gradient(top, #ff009d, #a80070);
+    background-image: -o-linear-gradient(top, #ff009d, #a80070);
+    background-image: linear-gradient(to bottom, #ff009d, #a80070);
+    text-decoration: none;
+  }
+  .copyright{
+    color: #faa5d2;
+    font-size: 0.75rem;
+    padding: 20px 0;
+  }
